@@ -13,11 +13,6 @@
 #     else: 
 #         print("Wrong gender")
 # print(get_user_info())
-        
-a = 'k'
-b = len(a)
-while int(b) < 2:
-    b = int(input('aa'))
-print('aaa')
+
     
     
