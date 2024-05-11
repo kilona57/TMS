@@ -1,4 +1,25 @@
-tuple_1 = tuple(range(1,6))
-list_1 = list(range(0, 11, 2))
-list_2 = list(range(50, -1, -10))
-tuple_2 = tuple(range(-100, -1, 98))
+numbers = ''
+for num in range(1, 21):
+    numbers += str(num) + ','
+print(numbers[:-1])
+
+numbers = ''
+for num in range(2, 21, 2):
+    numbers += str(num) + ','
+print(numbers[:-1])
+
+numbers = ''
+for num in range(1, 21, 2):
+    numbers += str(num) + ','
+print(numbers[:-1])
+
+words = ''
+for num in range(1, 21):
+    if num % 3 == 0:
+        words += 'baz,'
+    elif num % 5 == 0:
+        words += 'bar, '
+    else:
+        words += str(num) + ','
+print(words[:-1])
+
