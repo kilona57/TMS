@@ -24,9 +24,9 @@ users = [
 ] 
 
 def print_name_age_more_eighteen(users):
-    for dictionary in users:
-        if dictionary['age'] >= 18:
-            name = dictionary.get('name')
-            age = dictionary.get('age')
+    for user in users:
+        if user['age'] >= 18:
+            name = user.get('name')
+            age = user.get('age')
             print(name,age)
 print_name_age_more_eighteen(users)
